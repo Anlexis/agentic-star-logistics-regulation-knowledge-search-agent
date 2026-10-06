@@ -1,0 +1,85 @@
+[
+  {
+    "id": "kb-001",
+    "title": "UN number and packing group for lithium batteries carried by sea (IMDG)",
+    "category": "dangerous_goods",
+    "source": "IMDG Code, Class 9 lithium battery provisions summary",
+    "tags": ["dangerous goods", "lithium battery", "imdg", "un number", "packing group", "sea", "class 9"],
+    "codes": ["un3480", "un3481", "un3090", "un3091"],
+    "content": "Lithium-ion batteries shipped by sea fall under IMDG Class 9 miscellaneous dangerous goods. Lithium-ion cells and batteries packed by themselves are assigned UN 3480 (packing group II); lithium-ion batteries packed with or contained in equipment are assigned UN 3481. Lithium metal batteries packed by themselves are UN 3090; packed with or contained in equipment they are UN 3091. Required documentation includes a dangerous goods declaration citing the correct UN number and packing group, a UN 38.3 test-summary reference for the cell or battery type, a Class 9 hazard label, package marking, and the shipper's signed certification that the consignment is properly classified, packed, marked, and labelled."
+  },
+  {
+    "id": "kb-002",
+    "title": "Standard customs entry documentation for an international shipment",
+    "category": "customs",
+    "source": "Customs entry documentation checklist, cross-border freight summary",
+    "tags": ["customs", "documentation", "invoice", "packing list", "bill of lading", "entry"],
+    "content": "A standard customs entry requires a commercial invoice showing the transaction value, quantity, and Incoterm; a packing list describing the physical contents and package count; a bill of lading or air waybill as the contract of carriage and title document; and, where the goods qualify for preferential duty treatment, a certificate of origin. The importer of record must retain these records for the statutory retention period and produce them on request during a post-entry customs audit."
+  },
+  {
+    "id": "kb-003",
+    "title": "IATA dangerous goods classification and Shipper's Declaration for air transport",
+    "category": "dangerous_goods",
+    "source": "IATA Dangerous Goods Regulations, Shipper's Declaration summary",
+    "tags": ["iata", "dangerous goods", "air", "shipper declaration", "classification", "un number"],
+    "codes": ["un1993", "un1090"],
+    "content": "Dangerous goods tendered for air transport must be classified against the nine UN hazard classes, assigned the correct UN number and proper shipping name, and packed to the applicable IATA packing instruction. Most classes (flammable liquids UN1993, ketones such as acetone UN1090, and similar) require a Shipper's Declaration for Dangerous Goods signed by a trained and current shipper, plus class-specific hazard labels and handling labels. Undeclared or misdeclared dangerous goods tendered to an air carrier is a reportable safety occurrence."
+  },
+  {
+    "id": "kb-004",
+    "title": "Incoterms 2020 — allocation of cost, risk, and responsibility",
+    "category": "trade_terms",
+    "source": "ICC Incoterms 2020 rules, allocation summary",
+    "tags": ["incoterms", "fob", "cif", "dap", "risk", "cost", "responsibility"],
+    "content": "Incoterms 2020 allocate cost, risk, and delivery responsibility between buyer and seller at a defined point. Under FOB (Free On Board) the seller's risk transfers once the goods are loaded on the vessel at the named port; under CIF (Cost, Insurance and Freight) the seller additionally arranges and pays for carriage and minimum insurance to the named destination port; under DAP (Delivered At Place) the seller bears risk and cost until the goods are made available, unloaded-ready, at the named destination, with the buyer responsible for import clearance. The chosen term must be stated on the commercial invoice together with the named place."
+  },
+  {
+    "id": "kb-005",
+    "title": "Harmonized System (HS) tariff classification and duty determination",
+    "category": "customs",
+    "source": "HS classification and duty-rate determination summary",
+    "tags": ["hs code", "tariff", "classification", "duty", "harmonized system"],
+    "codes": ["8517.62", "8507.60"],
+    "content": "The Harmonized System assigns every traded good a six-digit international heading (e.g. 8517.62 for network switching/routing apparatus, 8507.60 for lithium-ion accumulators/batteries), extended nationally to eight or ten digits for tariff and statistical purposes. The declared HS heading determines the applicable duty rate, whether the good is subject to an antidumping or safeguard measure, and whether it qualifies for a preferential rate under an applicable free trade agreement. Misclassification resulting in underpayment of duty is subject to retroactive assessment and penalty on post-entry audit."
+  },
+  {
+    "id": "kb-006",
+    "title": "Restricted-party and sanctions screening for cross-border shipments",
+    "category": "compliance",
+    "source": "Trade-compliance restricted-party screening procedure summary",
+    "tags": ["sanctions", "restricted party", "screening", "denied party", "compliance"],
+    "content": "Before a shipment is booked, the shipper, consignee, notify party, and any intermediate freight forwarder must be screened against applicable denied-party, sanctions, and export-control restricted lists. A positive or ambiguous match must be escalated to the compliance function for manual review before the booking proceeds; the shipment must not move while a match is unresolved. Screening records, including the match-resolution rationale, must be retained for audit."
+  },
+  {
+    "id": "kb-007",
+    "title": "Carrier liability limits under international carriage conventions",
+    "category": "carrier_liability",
+    "source": "Hague-Visby Rules / Montreal Convention / CMR liability-limit summary",
+    "tags": ["carrier liability", "hague-visby", "montreal convention", "cmr", "cargo claim"],
+    "content": "International carriage conventions cap a carrier's liability for cargo loss or damage absent a declared higher value: the Hague-Visby Rules apply a per-package or per-kilogram limit for ocean carriage, the Montreal Convention applies a per-kilogram limit for air carriage, and the CMR Convention applies a per-kilogram limit for international road carriage. A shipper seeking full-value protection must either declare a higher value and pay the associated carrier surcharge, or arrange separate cargo insurance; a claim must be filed with the carrier within the convention's notice period or it may be time-barred."
+  },
+  {
+    "id": "kb-008",
+    "title": "Temperature-controlled (reefer) cargo handling requirements",
+    "category": "cargo_handling",
+    "source": "Cold-chain / reefer cargo handling procedure summary",
+    "tags": ["reefer", "temperature", "cold chain", "cargo handling", "perishable"],
+    "content": "Temperature-controlled cargo must be tendered with the required set-point and product temperature range stated on the booking and the bill of lading, pre-cooled to the carriage temperature before loading, and continuously monitored with a calibrated data logger for the full transit. A pre-trip inspection of the reefer container's refrigeration unit is required before stuffing, and any temperature excursion during transit must be documented with the logger record and reported to the consignee on arrival, since an undocumented excursion can void a cargo insurance claim."
+  },
+  {
+    "id": "kb-009",
+    "title": "Country-specific import licensing and permit requirements",
+    "category": "import_compliance",
+    "source": "Import licensing and permit requirements summary",
+    "tags": ["import license", "permit", "country-specific", "restricted goods"],
+    "content": "Certain goods categories (e.g. controlled chemicals, telecommunications equipment, agricultural products, and some dangerous goods) require an import license or permit issued by the destination country's competent authority before customs clearance is granted, in addition to standard entry documentation. The permit or license reference number must be declared on the customs entry and the physical document must be available for customs inspection; shipping without a required permit results in cargo hold, storage-fee accrual, and possible seizure at the port of entry."
+  },
+  {
+    "id": "kb-010",
+    "title": "Preferential origin certification under a free trade agreement",
+    "category": "trade_terms",
+    "source": "Free trade agreement preferential-origin certification summary",
+    "tags": ["free trade agreement", "origin", "certificate of origin", "preferential duty"],
+    "content": "To claim a preferential (reduced or zero) duty rate under a free trade agreement, the exporter must demonstrate the goods meet the agreement's rules-of-origin test (wholly obtained, sufficient regional value content, or a qualifying tariff-classification change) and issue a certificate or declaration of origin in the agreement's prescribed form. The importer must retain the origin certification and the exporter's supporting cost or production records, since a post-importation verification request can require production of those records within a defined response window."
+  }
+]

@@ -1,0 +1,27 @@
+# Runtime parameters — loaded by AgentRegistry, passed as Graph(config=...).
+# Separate from config/agent.yaml (the static manifest).
+#
+# The retrieval and llm blocks are forwarded to the inner DomainWorkflowGraph
+# by LogisticsRegulationSearchGraphNode._parent_config() (src/graph/graph.py)
+# under config["configurable"]; RetrieveNode / RerankFilterNode read
+# top_k / score_threshold / kb_path / hybrid_search from there (fallback:
+# module defaults mirroring these values). hybrid_search: true enables the
+# exact regulation-code match bonus (UN numbers, HS headings, IATA/IMDG
+# designators) on top of the field-weighted keyword score — logistics
+# questions frequently name an exact code.
+
+max_retry: 3
+timeout_s: 30
+
+retrieval:
+  top_k: 4
+  score_threshold: 0.25
+  kb_path: "config/kb/logistics_regulation_kb.json"
+  hybrid_search: true
+
+# The pipeline is deterministic (no live LLM call; see docs/02_design.md
+# "v1 Implementation Note — LLM synthesis"). Forwarded verbatim under
+# config["configurable"]["llm"] for the documented LLM-synthesis upgrade.
+llm:
+  temperature: 0.0
+  max_tokens: 1500
